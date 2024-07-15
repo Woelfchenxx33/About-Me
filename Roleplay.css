@@ -1,0 +1,49 @@
+body{
+    background-color: black;
+    color: white;
+}
+header{
+    display: flex;
+    justify-content: center;
+    color: rgb(89, 210, 254);
+    font-style: oblique;
+    border-bottom: 3px solid rgb(200, 143, 231);
+    }
+    main{
+        color: rgb(255, 232, 225);
+        font-family: "Bona Nova SC", serif;
+    }
+.storybox{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 50px;
+}
+.bilder {
+    width: 200px;
+    box-shadow: rgba(92, 122, 255) 0px 0px 0px 3px;
+}
+.Story{
+    width: 600px;
+    margin-top: 50px;
+}
+
+.mitte{
+    display: flex;
+    justify-content: center;
+}
+footer{
+    margin-top: 40px;
+    border-top:3px solid rgb(200, 143, 231);
+}
+ul{
+    display:flex;
+   gap: 5px;
+  list-style: none;
+}
+ul li a{
+    display: block;
+    padding: 8px;
+    background-color: #dddddd;
+  border: 3px solid rgb(89, 210, 254);
+}
